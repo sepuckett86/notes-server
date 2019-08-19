@@ -28,7 +28,8 @@ describe('notes routes', () => {
         expect(res.body).toEqual({
           _id: expect.any(String),
           title: 'Hi',
-          body: 'This is a note.'
+          body: 'This is a note.',
+          __v: 0
         });
       });
   });
